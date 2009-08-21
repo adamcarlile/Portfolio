@@ -1,0 +1,27 @@
+<div class="portfolio">
+	<% @portfolio.each do |project| %>
+	<div class="item">
+		<div class="bookmark">
+			<ul>
+				<% project.tag_list.each do |tag| %>
+				<li><img src='/images/icons/<%= tag.downcase.gsub(/ /, '-') %>.gif' alt='<%= tag %>' /></li>
+				<% end %>
+			</ul>
+		</div>
+		<h4><%= project.title %></h4>
+		<p></p>
+		<%= link_to image_tag(project.attachments.first.attachable.thumb_url(:portfolio)), url_for_page(project)  %>
+	</div>
+	<% end %>
+</div>
+<ul id="social">
+	<li>
+		
+	</li>
+	<li>
+		
+	</li>
+	<li class="last">
+		
+	</li>
+</ul>

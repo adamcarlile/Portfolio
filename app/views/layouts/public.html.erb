@@ -1,0 +1,23 @@
+<%= render :partial => 'layouts/shared/header'%>
+<body>
+<div class="wrapper">
+	<div class="inner">
+		<div id="header">
+			<h1>Hello</h1>
+			<h2 class="blue">I'm Adam Carlile</h2>
+			<h2 class="grey">I love to make things</h2>
+		</div>
+		<div id="nav_bar">
+			<%= render_global_nav %>
+			<div class="inner">
+				<img src="/images/header.jpg" width="940" height="208" alt="Header" />
+			</div>
+		</div>
+		<%= render_breadcrumb %>
+		<%= render_flash %>
+		<%= yield %>
+		<%= yield :sidebar %>
+	</div>
+</div>
+</body>
+</html>

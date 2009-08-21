@@ -1,0 +1,220 @@
+body
+{
+	background-image:url('../images/background/body_bg.jpg');
+	background-color:#181818;
+	background-repeat:no-repeat;
+	background-position:top center;
+	font-size:62.5%;
+	font-family: "Lucida Grande", "Lucida Sans", Lucida, sans-serif;
+}
+
+div.wrapper
+{
+	margin:auto;
+	width:960px;
+}
+
+div.wrapper > div.inner
+{
+	margin-left:10px;
+}
+
+
+/*=================HEADER================*/
+
+div#header h1
+{
+	font-size:13.3em;
+	color:#ffffff;
+	font-family:Rockwell, Georgia, Times, Serif;
+	font-weight:bold;
+	letter-spacing:-8px;
+	margin-top:65px;
+	line-height:1.2em;
+}
+
+div#header h2
+{
+	font-family:Frutiger, "Lucida Grande", "Lucida Sans", Lucida, sans-serif;
+	font-size:4.8em;
+	font-weight:normal;
+	letter-spacing:-3px;
+}
+
+div#header h3 a
+{
+	text-decoration:none;
+}
+
+div#header h3
+{
+	font-family:Frutiger, "Lucida Grande", "Lucida Sans", Lucida, sans-serif;
+	margin-top:30px;
+	font-size:1.8em;
+	font-weight:normal;
+	letter-spacing:0px;
+}
+
+div#header h3 a:hover
+{
+	color:#ffffff;
+}
+
+div#header p
+{
+	color:#4b5869;
+	font-size:1.2em;
+}
+
+.blue
+{
+	color:#53739a;
+}
+
+.grey
+{
+	color:#4b5869;
+}
+
+/*====================NAVBAR=======================*/
+
+div#nav_bar
+{
+	
+}
+
+div#nav_bar div.inner
+{
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#ffffff;
+	width:940px;
+	clear:both;
+}
+
+ul#main_navigation
+{
+	float:right;
+	width:460px;
+	overflow:hidden;
+}
+
+ul#main_navigation li
+{
+	float:left;
+}
+
+ul#main_navigation li a
+{
+	padding:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:1.6em;
+	background-color:#3f3f3f;
+	color:#929292;
+	display:block;
+	margin-right:10px;
+	text-decoration:none;
+}
+
+ul#main_navigation li.current a
+{
+	background-color:#ffffff;
+	color:#181818;
+}
+
+ul#main_navigation li.current a:hover
+{
+	background-color:#ffffff;
+}
+
+ul#main_navigation li a:hover
+{
+	background-color:#4b5869;
+}
+
+/*==================PORTFOLIO======================*/
+
+div.portfolio
+{
+	padding-top:20px;
+	overflow:hidden;
+	margin-left:-10px;
+	padding-left:10px;
+}
+
+div.portfolio div.item
+{
+	float:left;
+	padding:10px;
+	background-color:#ffffff;
+	margin-right:20px;
+	position:relative;
+}
+
+div.portfolio div.item.odd
+{
+	margin-right:0px;
+}
+
+div.portfolio div.item div.bookmark
+{
+	background-image:url('../images/bookmark/bottom.png');
+	background-position:bottom left;
+	background-repeat:no-repeat;
+	width:36px;
+	position:absolute;
+	right:20px;
+	top:-4px;
+}
+
+div.portfolio div.item div.bookmark ul
+{
+	background-image:url('../images/bookmark/top.gif');
+	background-repeat:no-repeat;
+	background-position:top left;
+	padding-bottom:15px;
+	padding-top:10px;
+}
+
+div.portfolio div.item div.bookmark ul li img
+{
+	margin-left:8px;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+div.portfolio div.item h4
+{
+	background-color:#000000;
+	color:#ffffff;
+	font-family:Rockwell;
+	font-size:2.8em;
+	padding:10px;
+	padding-bottom:5px;
+	position:absolute;
+	bottom:20px;
+	left:-5px;
+}
+
+/*=====================SOCIAL=====================*/
+
+ul#social
+{
+	overflow:hidden;
+	padding-top:20px;
+}
+
+ul#social li
+{
+	float:left;
+	width:300px;
+	height:100px;
+	background-color:#3f3f3f;
+	margin-right:20px;
+}
+
+ul#social li.last
+{
+	margin-right:0px;
+}
